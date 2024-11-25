@@ -269,6 +269,15 @@ nav{
 /* footer box */
 
 /* media query == 1024px / responsive */
+@media only screen and (max-width: 1024px) {
+    .featured-text{
+        padding: 0;
+    }
+    .image, .image img{
+        width: 320px;
+        height: 320px;
+    }
+}
 
 /* media query == 900px / responsive */
 
@@ -300,6 +309,9 @@ nav{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .featured-box{
+        
     }
 }
 
